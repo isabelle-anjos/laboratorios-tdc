@@ -2,6 +2,9 @@
 
 Este laboratório é projetado para guiar você na exploração de modelos de IA Generativa na Oracle Cloud Infrastructure (OCI), dividindo-se em três etapas: **Embeddings**, **Geração de Texto** e **Simulação de Fluxo de RAG**.
 
+> [!NOTE]
+>  Não é necessário conhecimento prévio para execução deste laboratório.
+
 ### **Idiomas disponíveis:**
 
 - Para instruções em Português, acesse: [[PT] Lab_GenAI.md](https://github.com/OracleLabs/Lab_GenAI/blob/main/%5BPT%5D%20Lab_GenAI.md)
@@ -10,8 +13,6 @@ Este laboratório é projetado para guiar você na exploração de modelos de IA
 ### **Instruções:**
 
 Cada etapa inclui um guia detalhado e exemplos práticos para ajudar você a explorar e aplicar técnicas de IA Generativa, com especial foco nos modelos e parâmetros ajustáveis.
-
-> ⚠️ **ATENÇÃO**: Não é necessário conhecimento prévio para execução deste laboratório.
 
 
 ### **Pré-requisitos:**
