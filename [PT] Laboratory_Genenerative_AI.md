@@ -15,6 +15,15 @@ Descubra o poder do Generative AI na Oracle Cloud, explorando o playground exclu
 
 ---
 
+
+
+![image](https://github.com/user-attachments/assets/5e362eb5-9a23-4e74-ad97-f9046c2afe70)
+![image](https://github.com/user-attachments/assets/5e362eb5-9a23-4e74-ad97-f9046c2afe70)
+![image](https://github.com/user-attachments/assets/5e362eb5-9a23-4e74-ad97-f9046c2afe70)
+![image](https://github.com/user-attachments/assets/5e362eb5-9a23-4e74-ad97-f9046c2afe70)
+![image](https://github.com/user-attachments/assets/5e362eb5-9a23-4e74-ad97-f9046c2afe70)
+![image](https://github.com/user-attachments/assets/5e362eb5-9a23-4e74-ad97-f9046c2afe70)
+
 ## Configuração do Ambiente de Laboratório
 ### Oracle Free Tier
 #### Styles
