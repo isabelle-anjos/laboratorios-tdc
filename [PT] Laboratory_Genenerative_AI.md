@@ -1,15 +1,7 @@
-# Laboratório Generative AI
-Descubra o poder do Generative AI na Oracle Cloud, explorando o playground exclusivo do serviço. Aprofunde-se em experimentos interativos e veja a inovação em ação.
+# ${\color{Bittersweet}Laboratório \space Generative \space AI}$
+Descubra o poder do Generative AI na Oracle Cloud, explorando o playground exclusivo do serviço. Aprofunde-se em experimentos interativos e veja a inovação em ação!
 
-`#0969DA`	
-
-### HEX
-- Azul: `#0969DA`
-- Vermelho: `#FF0000`
-- Verde: `#00FF00`
-- Amarelo: `#FFFF00`
-
-# Sumário
+# ${\color{Bittersweet}Sumário}$
 
 1. [Configuração do Ambiente de Laboratório](#configuração-do-ambiente-de-laboratório)
    - [Oracle Free Tier](#oracle-free-tier)
