@@ -42,6 +42,11 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 
 ![image](https://github.com/user-attachments/assets/3bceb09f-b446-4713-b4b4-27c7fee32ccb)
 
+
+> [!WARNING]
+> De preferência, utilize um cartão físico ao invés de um cartão digital. O cartão deve apresentar um limite de crédito disponível de, no mínimo, 6 reais.
+
+
 ![image](https://github.com/user-attachments/assets/09f0b271-5494-422f-9140-9753091dc78e)
 
 ![image](https://github.com/user-attachments/assets/d0a8f8de-32be-475e-84ae-02de04bf281c)
