@@ -35,3 +35,9 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 
 ![image](https://github.com/user-attachments/assets/143e9056-eb60-4d5a-8b8c-f57b680fea69)
 
+![image](https://github.com/user-attachments/assets/a4adffc4-1614-4fa7-ae17-e8dd6e08461c)
+
+![image](https://github.com/user-attachments/assets/3bceb09f-b446-4713-b4b4-27c7fee32ccb)
+
+
+
