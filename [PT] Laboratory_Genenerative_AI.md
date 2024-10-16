@@ -35,11 +35,3 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 
 ![image](https://github.com/user-attachments/assets/143e9056-eb60-4d5a-8b8c-f57b680fea69)
 
-
-
-
-
-
-## Configuração do Ambiente de Laboratório
-### Oracle Free Tier
-#### Styles
