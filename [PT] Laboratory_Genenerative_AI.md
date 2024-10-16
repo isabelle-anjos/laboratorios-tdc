@@ -27,7 +27,7 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 > 
 > ![image](https://github.com/user-attachments/assets/f59be8cb-781d-4eed-8d76-09a857ba4251)
 
-3. Você irá receber um e-mail conforme o padrão abaixo. Clique em "Verify Email":
+3. Você irá receber um e-mail conforme o padrão abaixo. VERIFIQUE SE ESTÁ NO SPAM. Clique em "Verify Email":
 
 ![image](https://github.com/user-attachments/assets/74d9440b-8f9d-40aa-8437-fe549c04786c)
 
@@ -51,6 +51,12 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 ![image](https://github.com/user-attachments/assets/09f0b271-5494-422f-9140-9753091dc78e)
 
 ![image](https://github.com/user-attachments/assets/d0a8f8de-32be-475e-84ae-02de04bf281c)
+
+![image](https://github.com/user-attachments/assets/628516a5-44d7-4091-aaf5-29a49f38d7f8)
+
+![image](https://github.com/user-attachments/assets/5ed989a7-f652-40eb-a8cc-75db7c7c24da)
+
+![image](https://github.com/user-attachments/assets/2f6f82e6-9c0d-45e0-8366-97fd24fff873)
 
 
 
