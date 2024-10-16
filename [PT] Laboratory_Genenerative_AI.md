@@ -32,7 +32,8 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 ![image](https://github.com/user-attachments/assets/74d9440b-8f9d-40aa-8437-fe549c04786c)
 
 > [!WARNING]
-> Você deve concluir os passos 4 a 9 em até 30 minutos, para não resetar o link enviado por email. 
+> Você deve concluir os passos 4 a 9 em até 30 minutos, para não resetar o link enviado por email. Não clique 2 vezes no mesmo link, se não aparecerá a seguinte mensagem:
+> ![image](https://github.com/user-attachments/assets/d21c0ba0-30f6-44bf-837a-05f50aa7d550)
 
 4. Em seguida, crie uma senha conforme as regras determinadas:
 
@@ -50,4 +51,7 @@ Primeiro, precisamos criar uma conta na Oracle Cloud para acessar o serviço de 
 ![image](https://github.com/user-attachments/assets/09f0b271-5494-422f-9140-9753091dc78e)
 
 ![image](https://github.com/user-attachments/assets/d0a8f8de-32be-475e-84ae-02de04bf281c)
+
+
+
 
