@@ -90,7 +90,7 @@ The Data Load wizard has created a new table and populated that table with the r
 
     ![Confirm Delete dialog](images/confirm-delete.png " ")
 
-9. Repeat Steps 7 and 8 to delete the **Highschools Report** page.
+9.  Repeat Steps 7 and 8 to delete the **Highschools Report** page.
     ![Delete page wizard](images/delete-report.png " ")
 
 10. Repeat Steps 7 and 8 to delete the **Dashboard** page.
