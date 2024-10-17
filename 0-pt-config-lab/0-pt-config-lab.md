@@ -151,6 +151,8 @@ Conclua o processo de configuração:
 
 ## Task 4: Acesso à conta
 
+### <span style="background-color:#FFFFE0;">**Passo 10.**</span>
+
 Após realizar o processo de configuração de dois fatores você será direcionado para a tela de login. Insira seu **e-mail** e **senha** cadastrados, em seguida, clique em **Sign In** para prosseguir.
 
 ![Default Acess](images/default-acess.png " ")
