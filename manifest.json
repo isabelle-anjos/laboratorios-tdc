@@ -12,11 +12,11 @@
     },
     {
       "title": "Lab 1: Create an APEX App",
-      "filename": "../../1-create-app/1-create-app.md"
+      "filename": "2-es-config-lab/2-es-config-lab.md"
     },
     {
       "title": "Lab 2: Visualize Schools on a Map",
-      "filename": "../../2-schools-on-map/2-schools-on-map.md"
+      "filename": "3-es-gen-ai/3-es-gen-ai.md"
     }
   ]
 }
