@@ -11,11 +11,11 @@
       "filename": "1-pt-gen-ai/1-pt-gen-ai.md"
     },
     {
-      "title": "[ES] Configuración del Entorno de Laboratorio",
+      "title": "Lab 1: Create an APEX App",
       "filename": "2-es-config-lab/2-es-config-lab.md"
     },
     {
-      "title": "[ES] Laboratorio Práctico - OCI Generative AI",
+      "title": "Lab 2: Visualize Schools on a Map",
       "filename": "3-es-gen-ai/3-es-gen-ai.md"
     }
   ]
