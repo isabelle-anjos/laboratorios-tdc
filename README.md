@@ -1,4 +1,4 @@
-## 🎉 [PT] Bem-vindos ao Workshop de IA Generativa🎉
+## 🎉 [PT] Bem-vindos ao Workshop de IA Generativa! 🎉
 
 Este laboratório é projetado para guiar você na exploração de modelos de IA Generativa na Oracle Cloud Infrastructure (OCI), dividindo-se em três etapas: **Embeddings**, **Geração de Texto** e **Simulação de Fluxo de RAG**.
 
@@ -31,7 +31,7 @@ Cada etapa inclui um guia detalhado e exemplos práticos para ajudar você a exp
 
 ---
 
-## 🎉 [ES] ¡Bienvenidos al Taller de IA Generativa - Edición GenOs! 🎉
+## 🎉 [ES] ¡Bienvenidos al Taller de IA Generativa! 🎉
 
 Este laboratorio está diseñado para guiarte en la exploración de modelos de IA Generativa en Oracle Cloud Infrastructure (OCI), dividido en tres etapas: **Embeddings**, **Generación de Texto** y **Simulación de Flujo de RAG**.
 
