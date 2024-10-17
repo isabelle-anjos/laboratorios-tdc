@@ -4,17 +4,19 @@
 
 > Este documento de configuración ha sido elaborado para guiarte en la **creación de una cuenta Oracle Cloud Free Tier**, que es necesaria para realizar cualquier laboratorio técnico en Oracle Cloud Infrastructure (OCI).
 
+<br>
 ### ⭕ **¿Qué es Oracle Cloud?**
 
 [**Oracle Cloud**](https://www.oracle.com/es/cloud/) es una plataforma de infraestructura y servicios en la nube que ofrece una amplia gama de capacidades para soluciones de negocios, aplicaciones y desarrollo. Con OCI, puedes aprovechar recursos de cómputo, almacenamiento, bases de datos, inteligencia artificial, entre otros, todo en un entorno seguro y de alto rendimiento.
 
+<br>
 ### ⭕ **¿Cómo funciona Oracle Cloud Free Tier?**
 
 Oracle Cloud Free Tier es una cuenta gratuita que ofrece acceso a varios servicios de Oracle Cloud sin costo, con [**$300 USD**](https://www.oracle.com/cloud/free/) en créditos gratuitos válidos por **30 días** y acceso a servicios gratuitos. Esto incluye, pero no se limita a, cómputo, almacenamiento, bases de datos y servicios de inteligencia artificial.
 
 El objetivo principal de Oracle Free Tier es **permitirte experimentar y desarrollar soluciones en Oracle Cloud sin costo inicial.** Es una excelente oportunidad para probar la infraestructura y servicios avanzados de OCI y familiarizarte con los recursos disponibles.
 
-
+<br>
 ### **Recursos y Soporte**:
 
 - **Documentación de Oracle Cloud**: [Documentación de Oracle Cloud](https://docs.oracle.com/en/cloud/)
