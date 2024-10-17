@@ -1,4 +1,4 @@
-## 🎉 [PT] Bem-vindos ao Workshop de IA Generativa - Edição GenOs! 🎉
+## 🎉 [PT] Bem-vindos ao Workshop de IA Generativa🎉
 
 Este laboratório é projetado para guiar você na exploração de modelos de IA Generativa na Oracle Cloud Infrastructure (OCI), dividindo-se em três etapas: **Embeddings**, **Geração de Texto** e **Simulação de Fluxo de RAG**.
 
@@ -7,8 +7,7 @@ Este laboratório é projetado para guiar você na exploração de modelos de IA
 
 ### **Idiomas disponíveis:**
 
-- Para instruções em Português, acesse: [[PT] Lab_GenAI.md](https://github.com/OracleLabs/Lab_GenAI/blob/main/%5BPT%5D%20Lab_GenAI.md)
-- Para instrucciones en Español, acceda a: [[ES] Lab_GenAI.md](https://github.com/OracleLabs/Lab_GenAI/blob/main/%5BES%5D%20Lab_GenAI.md)
+- Para instruções em Português e Espanhol, acesse: [Laboratory - OCI Generative AI](https://isabelle-anjos.github.io/generative-ai-laboratory/))
 
 ### **Instruções:**
 
@@ -41,8 +40,7 @@ Este laboratorio está diseñado para guiarte en la exploración de modelos de I
 
 ### **Idiomas disponibles:**
 
-- Para instrucciones en Portugués, acceda a: [[PT] Lab_GenAI.md](https://github.com/OracleLabs/Lab_GenAI/blob/main/%5BPT%5D%20Lab_GenAI.md)
-- Para instrucciones en Español, acceda a: [[ES] Lab_GenAI.md](https://github.com/OracleLabs/Lab_GenAI/blob/main/%5BES%5D%20Lab_GenAI.md)
+- Para instrucciones en Portugués y Español, acceda a: [Laboratory - OCI Generative AI](https://isabelle-anjos.github.io/generative-ai-laboratory/))
 
 ### **Instrucciones:**
 
