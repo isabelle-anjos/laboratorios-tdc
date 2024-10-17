@@ -30,8 +30,6 @@ Cada etapa inclui um guia detalhado e exemplos práticos para ajudar você a exp
 
 **Referências e Materiais de Estudo**
 
-Aqui está a tradução para o espanhol:
-
 ---
 
 ## 🎉 [ES] ¡Bienvenidos al Taller de IA Generativa - Edición GenOs! 🎉
