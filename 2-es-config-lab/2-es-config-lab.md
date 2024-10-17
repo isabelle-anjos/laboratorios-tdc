@@ -1,410 +1,177 @@
-# Visualize Schools on a Map
+# Configuración del Oracle Free Tier 
 
-## Introduction
+## Introducción
 
-In this lab, you learn to create a Map region and display the schools as Points on the map. You also learn to customize and filter the results on the map based on the faceted search results.
+> Este documento de configuración ha sido elaborado para guiarte en la **creación de una cuenta Oracle Cloud Free Tier**, que es necesaria para realizar cualquier laboratorio técnico en Oracle Cloud Infrastructure (OCI).
 
-**Note:** The screenshots in this workshop are taken using Dark Mode in APEX 24.1.2
+### ⭕ **¿Qué es Oracle Cloud?**
 
-Estimated Time: 10 minutes
+[**Oracle Cloud**](https://www.oracle.com/es/cloud/) es una plataforma de infraestructura y servicios en la nube que ofrece una amplia gama de capacidades para soluciones de negocios, aplicaciones y desarrollo. Con OCI, puedes aprovechar recursos de cómputo, almacenamiento, bases de datos, inteligencia artificial, entre otros, todo en un entorno seguro y de alto rendimiento.
 
-<!-- Watch the video below for a quick walk-through of the lab.
-[Create an APEX App](videohub:1_a6bi2e62) -->
+### ⭕ **¿Cómo funciona Oracle Cloud Free Tier?**
 
-### Objectives
+Oracle Cloud Free Tier es una cuenta gratuita que ofrece acceso a varios servicios de Oracle Cloud sin costo, con [**$300 USD**](https://www.oracle.com/cloud/free/) en créditos gratuitos válidos por **30 días** y acceso a servicios gratuitos. Esto incluye, pero no se limita a, cómputo, almacenamiento, bases de datos y servicios de inteligencia artificial.
 
-In this lab, you will:
+El objetivo principal de Oracle Free Tier es **permitirte experimentar y desarrollar soluciones en Oracle Cloud sin costo inicial.** Es una excelente oportunidad para probar la infraestructura y servicios avanzados de OCI y familiarizarte con los recursos disponibles.
 
-- Create a Map region
-- Link the Faceted Search region with the Map region
-- Display Cards region and the Map region in two different tabs
-- Filter Schools based on spatial distance
 
-## Task 1: Create a Map Region
+### **Recursos y Soporte**:
 
-1. Navigate to Page 1 (Search and Apply) in the Page Designer. In the rendering tree, right-click **Body** and select **Create Region**.
+- **Documentación de Oracle Cloud**: [Documentación de Oracle Cloud](https://docs.oracle.com/en/cloud/)
+- **Tutoriales**: Explora el [Centro de Aprendizaje de Oracle](https://mylearn.oracle.com/ou/home)
 
-    ![Page designer](images/new-region.png " ")
 
-2. Enter/select the following in the property editor:
-    - Under Identification:
-        - Name: **Map**
-        - Type: **Map**
+### _**¡Disfruta de tu experiencia en Oracle Cloud!**_
 
-    - Under Source:
-        - Location: **Local Database**
-        - Table Name: **HIGHSCHOOLS**
 
-    - Layout > Start New Row: Disable the toggle button to **OFF**
+## Task 1: Creación de la Cuenta Oracle Free Tier
 
-    ![Page designer](images/map-region-1.png =40%x*)
+### <span style="background-color:#FFFFE0;">**Paso 1.**</span>
 
-    ![Page designer](images/map-region-2.png =40%x*)
+Visita el enlace [www.oracle.com/cloud/free](https://www.oracle.com/cloud/free/) y haz clic en **"Start for Free"**.
 
-3. In the rendering tree, select the new layer created under Map.
-    ![Page designer](images/new-layer.png =40%x*)
+   ![Free Tier](images/free-tier.png " ")
 
-4. In the Property Editor, enter/select the following:
-    - Under Identification:
-        - Name: **Schools**
-        - Layer Type: **Points**
-    - Source > Location: **Region Source**
+### <span style="background-color:#FFFFE0;">**Paso 2.**</span>
 
-    ![Page designer](images/school-layer-1.png =40%x*)
+Completa la información de **País, Nombre y Apellido, y Email**. Luego, haz clic en **"Verify my Email"**
 
-    - Under Column Mapping:
-        - Geometry Column Data Type: **Longitude/Latitude**
-        - Longitude Column: **LONGITUDE**
-        - Latitude Column: **LATITUDE**
-        - Primary Key Column: **ID**
-    - Point Objects > Shape: **Pin Circle**
+   ![Verify Email](images/verify-email.png " ")
 
-    - Under Appearance:
-        - Stroke Color: **#ffffff**
 
-    ![Page designer](images/school-layer-2.png =40%x*)
+> <span style="background-color:#FFCCCC; color:#D33E43;"><strong>❗ATENCIÓN❗</strong></span><br><br>
+> <font color=#D33E43> Si ya tienes un email registrado en Oracle, utiliza un **email alternativo** para crear tu Free Trial. Si ves el mensaje de error que se muestra en la imagen, **actualiza la página** e intenta de nuevo.</font> <br>
+> ![Dif Email](images/dif-email.png " ")
 
-5. In the rendering tree, under Map, right-click **Layers** and select **Create Layer**.
-    ![Page designer](images/new-layer-2.png =40%x*)
 
-6. In the property editor, enter/select the following:
-    - Identification > Name: **Current Position**
-    - Under Source:
-        - Type: **SQL Query**
-        - SQL Query:
-            ```
-            <copy>
-            SELECT 40.748817 AS LATITUDE, -73.985428 AS LONGITUDE FROM DUAL;
-            </copy>
-            ```
-    ![Page designer](images/curr-position.png =40%x*)
-    In this workshop, we use the following coordinates as the current Geo Loacation:
-        - Latitude: 40.748817
-        - Longitude: -73.985428
+## Task 2: Activación de la Cuenta
 
-    - Under Column Mapping:
-        - Geometry Column data Type : **Longitude/Latitude**
-        - Longitude Column: **LONGITUDE**
-        - Latitude Column: **LATITUDE**
-    - Under Point Objects:
-        - Shape: **Home**
-        - Shape Scale: **2**
-    - Appearance > Fill Color: **#970909**
+### <span style="background-color:#FFFFE0;">**Paso 3.**</span>
 
-    ![Page designer](images/curr-position-2.png =40%x*)
+Recibirás un correo electrónico similar al ejemplo a continuación. **Verifica que no esté en la carpeta de spam**. Luego, haz clic en **"Verify Email"** para continuar:
 
-7. Click **Save and Run**.
-    ![Page designer](images/save-run-map.png " ")
+![Verify Account Email](images/verify-account.png " ")
 
-## Task 2: Link Faceted Search to the Map Region
+> <span style="background-color:#FFCCCC; color:#D33E43;"><strong>❗ATENCIÓN❗</strong></span><br><br>
+> <font color=#D33E43> Completa los siguientes pasos en **hasta 30 minutos** para evitar que el enlace enviado por correo electrónico se reinicie. **Evita hacer clic en el enlace más de una vez**, ya que esto podría generar un mensaje de error.</font> <br>
+> ![Forbidden](images/forbidden.png " ")
 
-In this task, we use Dynamic Action and custom PL/SQL code to fetch the Faceted Search region results and filter the Map region accordingly.
-
-1. Navigate to **SQL Workshop > SQL Commands**.
-
-    ![Page designer](images/sql-commands.png ' ')
-
-2. Copy and paste the below SQL command to create a Type. Click **Run**.
+### <span style="background-color:#FFFFE0;">**Paso 4.**</span>
 
-    ```
-    <copy>
-    create or replace type t_pk_ids as table of number; 
-    </copy>
-    ```
-
-    ![SQL Commands editor](images/sql-type.png ' ')
-
-3. Now, copy an paste the below PL/SQL code in the editor and click **Run**.
-
-    ```
-    <copy>
-    create or replace function get_search_results_pk_ids(
-        p_page_id          in number,
-        p_region_static_id in varchar2,
-        p_pk_column_name in varchar2 )
-    return t_pk_ids pipelined
-    is
-    l_region_id   number;
-    l_context     apex_exec.t_context;
-
-    begin
-    -- 1. get the region ID of the Faceted Search region
-        select region_id
-        into l_region_id
-        from apex_application_page_regions
-        where application_id = v('APP_ID')
-            and page_id        = p_page_id
-            and static_id      = p_region_static_id;
-
-    -- 2. Get a cursor (apex_exec.t_context) for the current region data
-        l_context := apex_region.open_query_context(
-                     p_page_id      => p_page_id,
-                     p_region_id    => l_region_id );
-
-    while apex_exec.next_row( p_context => l_context ) loop
-        pipe row(
-                    apex_exec.get_varchar2( p_context => l_context, p_column_idx => apex_exec.get_column_position(
-                                                 p_context => l_context,
-                                                 p_column_name => p_pk_column_name ) ) );
-    end loop;
-
-    apex_exec.close( l_context );
-
-    return;
-    exception
-    when no_data_needed then
-        apex_exec.close( l_context );
-        return;
-    when others then
-        apex_exec.close( l_context );
-        raise;
-    end get_search_results_pk_ids;
-    </copy>
-    ```
+A continuación, crea una contraseña que cumpla con las siguientes reglas:
+   - La contraseña debe tener un mínimo de **8 caracteres**, incluyendo **1 letra minúscula**, **1 letra mayúscula**, **1 número** y **1 carácter especial**.
+   - La contraseña no puede tener más de **40 caracteres**, ni contener el **nombre**, **apellido**, **dirección de correo electrónico**, **espacios** o los caracteres: ``` ` ~ < > \ ```.
 
-    ![SQL Commands editor](images/plsql.png ' ')
-
-4. Navigate to **App Builder** > **Highschools** > **Search and Apply**.
-   In the rendering tree, select the **Map** region. In the property editor, enter the following:
-    - Source > Where Clause:
-        ```
-        <copy>
-            (ID IN (SELECT COLUMN_VALUE from table(get_search_results_pk_ids(1, 'S_SEARCH_RESULTS','ID'))))
-        </copy>
-        ```
+   ![Password](images/password.png " ")
 
+### <span style="background-color:#FFFFE0;">**Paso 5.**</span>
 
-    - Page Items to Submit: **P1\_SEARCH, P1\_METHOD, P1\_BOROUGH, P1\_INTEREST, P1\_ATTENDANCE_RATE ,P1\_SAFE**
+Selecciona las opciones indicadas a continuación:
 
-    ![Page Designer](images/where-clause.png ' ')
+- **Tipo de Cliente**:
+     - Selecciona la opción **Individual**.
 
-5. In the rendering tree, navigate to the Dynamic Actions tab. Right-click on **Events**, and select **Create Dynamic Action**.
-
-    ![Page Designer](images/create-da.png =50%x*)
+- **Home Region**:
+    - **Selecciona la opción "Brazil East (Sao Paulo)"** como la región de origen. Los servicios de IA generativa de Oracle están disponibles solo en algunas regiones específicas:
+  
+        | Region Name             | Location    | Region Identifier | Region Key |
+        |-------------------------|-------------|-------------------|------------|
+        | Brazil East (Sao Paulo) | Sao Paulo   | sa-saopaulo-1     | GRU        |
+        | Germany Central (Frankfurt) | Frankfurt | eu-frankfurt-1   | FRA        |
+        | UK South (London)       | London      | uk-london-1       | LHR        |
+        | US Midwest (Chicago)    | Chicago     | us-chicago-1      | ORD        |
+        {: title=" "}    
 
-6. In the property editor, enter/select the following:
-    - Identification > Name: **Filter Map on Facets Change**
-    - Under When:
-        - Event: **Facets Change [Faceted Search]**
-        - Selection Type: **Region**
-        - Region: **Search**
+- **Confirmación de la Región**:
+    - Marca la casilla para confirmar que entiendes que la **región de origen** no puede modificarse después de este paso.
+  
+- **Términos de Uso**:
+    - Lee los Términos de Uso y haz clic en **Continue** para continuar con la configuración de la cuenta.
 
-       ![Dynamic Actions Tab in Page Designer](images/filter-map-da.png =50%x*)
+![Configuration Trial](images/config-trial.png " ")
 
-7. Now, select **Show** under **Filter Map on Facets Change** > **True**. In the property editor, enter/select the following:
-    - Action: **Refresh**
-    - Selection Type: **Region**
-    - Region: **Map**
+### <span style="background-color:#FFFFE0;">**Paso 6.**</span>
 
-    ![Dynamic Actions Tab in Page Designer](images/refresh-da.png ' ')
+Completa la información de dirección. Después de completar todos los campos, haz clic en **Continue** para continuar.
 
-8. Click **Save**.
+![Address Information](images/address-information.png " ")
 
-## Task 3: Display Cards and Maps as Radio Group
+### <span style="background-color:#FFFFE0;">**Paso 7.**</span>
 
-1. In the Rendering Tree, right-click Button Bar and select **Create Page Item**.
-    ![Page Designer](images/create-page-item.png ' ')
+1. Haz clic en **Add payment verification method** para agregar un método de pago.
+    > **Usa preferiblemente una tarjeta física** con un límite de crédito disponible de al menos **6 reales**. Las tarjetas digitales pueden no ser aceptadas.
 
-2. Enter/select the following in the property editor:
-    - Under Identification:
-        - Name: **P1\_DISPLAY\_AS**
-        - Type: **Radio Group**
-    - Settings > Number of Columns: **2**
-    - Layout > Slot: **Next**
-    - Under Appearance:
-        - Template: **Hidden**
-        - Template Options >  Item Group Display: **Display as Pill Button**
+3. Después de agregar el método de pago, marca la casilla de **Agreement** para aceptar los términos.
+4. Haz clic en **Start my free trial** para comenzar tu período de prueba gratuito.
 
-        ![Page Designer](images/radio-display.png =40%x*)
+![Payment Information](images/payment.png " ")
 
-        ![Page Designer](images/template-pill.png =40%x*)
+## Task 3: Configuración de la Autenticación de Dos Factores
 
-    - Under List of Values:
-        - Type: **Static Values**
-        - Static Values: click **Display1, Display 2** to edit the Static Values.
-            |Display Value| Return Value|
-            |-------------|-------------|
-            |Cards| CARDS|
-            |Map| MAP|
-             {: title="Static Values"}
-
-        - Display Extra Values: Disable the toggle button to **OFF**.
-        - Display Null Values: Disable the toggle button to **OFF**.
-            ![Page Designer](images/lov.png " ")
-
-    - Under Default:
-        - Type: **Static**
-        - Static Value: **CARDS**
-
-         ![Page Designer](images/default-static.png =40%x*)
-
-3. Drag and drop the **P1\_DISPLAY\_AS** page item below **P1\_ORDER\_BY**.
-
-    ![Drag and drop](images/drag-and-drop.png " ")
-
-4. Right-click **P1\_DISPLAY\_AS** and select **Create Dynamic Action**.
-    ![Page Designer](images/display-da.png =50%x*)
-
-5. Enter/select the following in the property editor:
-    - Identification > Name: **Toggle Cards**
-    - Under Client-side condition:
-        - Type: **Item = Value**
-        - Item: **P1\_DISPLAY\_AS**
-        - Value: **CARDS**
-
-        ![Page Designer](images/display-da-properties.png " ")
-
-6. In the Rendering Tree, select **True** Action , enter/select the following in the property editor:
-    - Under Affected Elements:
-        - Selection Type: **Region**
-        - Region: **Search Results**
-
-        ![Page Designer](images/da-true1.png " ")
-
-7. Create another TRUE action. Right-click **True** and select **Create TRUE Action**.
-    ![Page Designer](images/da-true2.png =50%x*)
+### <span style="background-color:#FFFFE0;">**Paso 8.**</span>
 
-8. Enter/select the following:
-    - Identification > Action: **Hide**
-    - Under Affected Elements:
-        - Selection Type: **Region**
-        - Region: **Map**
+Después de iniciar el Free Trial, espera mientras Oracle configura tu cuenta. El mensaje **"Please wait while we finish setting up your account"** aparecerá en la pantalla. Este proceso puede tardar unos minutos.
 
-    ![Page Designer](images/true2-properties.png " ")
+![Setting Account](images/setting-account.png " ")
 
-9. Right-click **False** and select **Create FALSE Action**.
-    ![Page Designer](images/da-false1.png =50%x*)
+1. Recibirás un correo electrónico de confirmación de Oracle con el título **"Get Started Now with Oracle Cloud"**.
+2. En este correo, localiza el **Cloud Account** y el **Username**, que serán necesarios para acceder a tu cuenta en la nube.
 
-10. Enter/select the following:
-    - Identification > Action: **Show**
-    - Under Affected Elements:
-        - Selection Type: **Region**
-        - Region: **Map**
+![Get Started](images/get-started.png " ")
 
-        ![Page Designer](images/false1-properties.png " ")
+3. Accede a la página de inicio de sesión de Oracle Cloud a través del enlace [www.oracle.com/es/cloud/sign-in.html](https://www.oracle.com/es/cloud/sign-in.html)
+4. Ingresa el **Cloud Account** proporcionado en el correo de confirmación.
+5. Haz clic en **Próximo** y sigue las instrucciones para finalizar el inicio de sesión.
 
-11. Similarly, create another **FALSE** action. Right-click False and select **Create FALSE Action**.
+![Inicial Cloud](images/inicial-cloud.png " ")
 
-12. Enter/select the following:
-    - Identification > Action: **Hide**
-    - Under Affected Elements:
-        - Selection Type: **Region**
-        - Region: **Search Results**
+### <span style="background-color:#FFFFE0;">**Paso 9.**</span>
 
-        ![Page Designer](images/false2-properties.png " ")
+En la siguiente pantalla, haz clic en **Enable Secure Verification** para iniciar la configuración de la autenticación en dos pasos.
 
-## Task 4: Add Distance Facet
+![Auth](images/auth.png " ")
 
-In this task, you add a new Distance facet to filter schools based on Spatial distance.
+Selecciona el método de autenticación **Mobile App** y busca **Oracle Mobile Authenticator** en la tienda de aplicaciones de tu celular.
+   - [Enlace para Android](https://play.google.com/store/apps/details?id=oracle.idm.mobile.authenticator&hl=es)
+   - [Enlace para Iphone](https://apps.apple.com/es/app/oracle-mobile-authenticator/id835904829)
 
-1. In the rendering tree, select the **Search Results** region.
+Configura la aplicación de autenticación:
+   - Abre la aplicación en tu dispositivo móvil.
+   - Toca en **Add Account o +** y escanea el código QR que aparece en la pantalla para vincular la aplicación a tu cuenta.
 
-    ![Page Designer](images/search-results-source.png ' ')
+![Auth Application](images/auth-app.png " ")
 
-2. In the property editor, under Source > SQL Query, replace the code by copying and pasting the following SQL query:
+Completa el proceso de configuración:
+   - Después de vincular la aplicación, verás una confirmación en la pantalla con el mensaje **Successfully Enrolled**.
+   - Haz clic en **Done** para finalizar el proceso.
 
-    ```
-    <copy>
-    select ID,
-       BOROUGH,
-       NEIGHBORHOOD ||', '|| BOROUGH as LOCATION,
-       SCHOOL_NAME,
-       NEIGHBORHOOD,
-       INTEREST,
-       METHOD,
-       ATTENDANCE_RATE,
-       GRADUATION_RATE,
-       SCHOOL_SPORTS,
-       TOTAL_STUDENTS,
-       to_char(TOTAL_STUDENTS,'999G999G999G999G999') as total_students_disp,
-       SAFE,
-       sdo_geom.sdo_distance(
-      sdo_geometry(2001, 4326, sdo_point_type(longitude, latitude, null), null, null),
-      sdo_geometry(2001, 4326, sdo_point_type(-73.985428, 40.748817, null), null, null),
-      0.01,
-      'unit=MILE'
-    ) DISTANCE
-    from HIGHSCHOOLS
-    </copy>
-    ```
+![Auth Application Done](images/auth-done.png " ")
 
-    Click **OK**.
-    ![Page Designer](images/search-results-sql.png ' ')
+## Task 4: Acceso a la cuenta
 
-3. In the rendering tree, under **Search**, right-click **Facets** and select **Create Facet**.
+### <span style="background-color:#FFFFE0;">**Paso 10.**</span>
 
-    ![Page Designer](images/create-facet.png =40%x*)
+Después de realizar el proceso de configuración de dos factores, serás dirigido a la pantalla de inicio de sesión. Ingresa tu **email** y **contraseña** registrados, luego haz clic en **Sign In** para continuar.
 
-4. In the property editor, enter/select the following:
-    - Under Identification:
-        - Name: **P1_DISTANCE**
-        - Type: **Range**
-    - Settings > Select Multiple: Enable the toggle button to **ON**.
+![Default Acess](images/default-acess.png " ")
 
-    ![Page Designer](images/distance-facet.png =40%x*)
+Recibirás una **notificación** en el dispositivo configurado con **Oracle Mobile Authenticator**. Abre la notificación y toca en **Allow** para continuar con el inicio de sesión.
 
-    - Under List of Values,
-        - Type: **Static Values**
-        - Static Values:
+![Cellphone Acess](images/cell-auth.png " ")
 
-            |Display Value | Return Value|
-            |--------------|-------------|
-            | <5 miles     | \|5         |
-            | 5 - 10 miles | 5\|10       |
-            | 10 - 15 miles | 10\|15     |
-            | 15 - 20 miles | 15\|20     |
-            | >=20 miles    | 20\|       |
+Después de iniciar sesión, serás redirigido al panel de Oracle Cloud.
+  - Verifica que la **región seleccionada** en la esquina superior derecha sea "Brazil East (São Paulo)" para asegurar el acceso a los servicios de IA generativa.
+  - En el panel, puedes ver los créditos restantes y acceder a los enlaces para los servicios, como **OCI Generative AI Services**.
 
-            - Sort > Sort at Runtime: Disable the Toggle button to **OFF**.
+![OCI Panel](images/oci-panel.png " ")
 
-        Click **OK**.
 
-        ![Page Designer](images/static-values.png ' ')
+## Sumario
 
-    - Source > Data Type: **Number**
+Con tu cuenta Oracle Cloud Free Tier configurada, ahora puedes proceder con cualquier laboratorio técnico en OCI. **¡Explora al máximo tus créditos gratuitos para descubrir todo lo que Oracle Cloud tiene para ofrecer!**
 
-       ![Page Designer](images/data-type-number.png =40%x*)
+## Agradecimientos
 
-5. Update *Page Items to Submit* property of the Map Region to include the P1_DISTANCE facet.
-    Select **Map** in the rendering tree, and in the property editor, enter/update the following:
-    - Source > Page Items to Submit: **P1\_SEARCH, P1\_METHOD, P1\_BOROUGH, P1\_INTEREST, P1\_ATTENDANCE_RATE ,P1\_SAFE, P1\_DISTANCE**
-
-        ![Page Designer](images/items-submit.png ' ')
-
-    - Layout > Start New Row: Enable the Toggle Button to **ON**.
-
-        ![Page Designer](images/enable-start-new-row.png ' ')
-
-6. Rearrange the facets in the rendering tree by dragging and dropping, so that the facets are in the sequence as follows:
-    - P1_SEARCH
-    - P1_INTEREST
-    - P1_DISTANCE
-    - P1_BOROUGH
-    - P1\_ATTENDANCE\_RATE
-    - P1_SAFE
-    - P1_METHOD
-
-    ![Page Designer](images/rearrange-facets.png =40%x*)
-
-7. Select the **Method** facet, and in the property editor, edit the following:
-    - Under Advanced:
-        - Collapsible: Enable the Toggle Button to **ON**.
-        - Initially Collapsed: Enable the Toggle Button to **ON**.
-
-    ![Page Designer](images/method-collapse.png ' ')
-
-8. Click **Save and Run** page to see how the app looks.
-
-    ![Page Designer](images/save-and-run.png ' ')
-
-## Summary
-
-You now know how to map a Faceted Search to a Map region. You also learned to filter the schools based on spatial distance.
-
-You may now **proceed to the next lab**.
-
-## Acknowledgments
-
- - **Authors** - Toufiq Mohammed, Senior Product Manager; Apoorva Srinivas, Senior Product Manager
- - **Contributing Author** - Pankaj Goyal, Member Technical Staff
- - **Last Updated By/Date** - Apoorva Srinivas, Senior Product Manager, July 2024
+- **Autores** - Isabelle Anjos
+- **Autor Contribuyente** - Isabelle Anjos
+- **Última Actualización Por/Fecha** - Octubre 2024
